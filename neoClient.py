@@ -44,13 +44,13 @@ def fetchNeo(url: str):
     if protocol.lower() != "neo":
         if wrongProtCount == 0:
             wrongProtCount += 1    
-            return "Wrong Protocol, Bro. No worries :)"
+            raise ValueError("Wrong Protocol, Bro. No worries :)")
         elif wrongProtCount == 1:
             wrongProtCount += 1
-            return "Bro, use the neo:// protocol please"
+            raise ValueError("Bro, use the neo:// protocol please")
         elif wrongProtCount == 2:
             wrongProtCount += 1
-            return "BRO NOT COOL, THIS IS YOUR LAST WARNING"
+            raise ValueError("BRO NOT COOL, THIS IS YOUR LAST WARNING")
         else:
             print("ALRIGHT BRO IF YOU WANT TO USE OTHER THAN THE NEO PROTOCOL JUST USE POSTMAN OR YOUR BROWSER")
             exit()
