@@ -90,8 +90,6 @@ Enter neo:// address (or 'quit' to exit): neo://127.0.0.1/
 ## 🌐 URL Rules
 
 - `neo://127.0.0.1/` → serves `docs/index.md`
-- `neo://127.0.0.1/readme` → serves `docs/readme.md`
-- `neo://127.0.0.1/guide/setup` → serves `docs/guide/setup.md`
 
 ---
 
