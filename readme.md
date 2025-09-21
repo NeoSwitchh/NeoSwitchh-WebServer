@@ -45,15 +45,15 @@ docs/index.md
 
 3. Run the server:
 
-```bash
+```
 python neoServer.py
 ```
 
 4. You should see:
 
-   ```
-   NeoSwitchh server running at neo://127.0.0.1:6942
-   ```
+```
+NeoSwitchh server running at neo://127.0.0.1:6942
+```
 
 ---
 
@@ -61,27 +61,27 @@ python neoServer.py
 
 1. Start the client:
 
-   ```bash
-   python neoClient.py
-   ```
+```
+python neoClient.py
+```
 
 2. You’ll see the ASCII banner:
 
-   ```
-     _   _            _____         _ _       _     _
-    | \ | |          / ____|       (_) |     | |   | |
-    |  \| | ___  ___| (_____      ___| |_ ___| |__ | |__
-    | . ` |/ _ \/ _ \\___ \ \ /\ / / | __/ __| '_ \| '_ \
-    | |\  |  __/ (_) |___) \ V  V /| | || (__| | | | | | |
-    |_| \_|\___|\___/_____/ \_/\_/ |_|\__\___|_| |_|_| |_|
-       NEO:// Client
-   ```
+```
+    _   _            _____         _ _       _     _
+| \ | |          / ____|       (_) |     | |   | |
+|  \| | ___  ___| (_____      ___| |_ ___| |__ | |__
+| . ` |/ _ \/ _ \\___ \ \ /\ / / | __/ __| '_ \| '_ \
+| |\  |  __/ (_) |___) \ V  V /| | || (__| | | | | | |
+|_| \_|\___|\___/_____/ \_/\_/ |_|\__\___|_| |_|_| |_|
+    NEO:// Client
+```
 
 3. Enter a `neo://` URL:
 
-   ```
-   Enter neo:// address (or 'quit' to exit): neo://127.0.0.1/
-   ```
+```
+Enter neo:// address (or 'quit' to exit): neo://127.0.0.1/
+```
 
 4. The client will fetch `docs/index.md` and display the content.
 
